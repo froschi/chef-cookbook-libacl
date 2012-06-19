@@ -1,3 +1,5 @@
+include_recipe "libattr"
+
 packages = Array.new
 
 case node[:lsb][:codename]
